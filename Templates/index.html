@@ -1,0 +1,34 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>AI Poetry Assistant</title>
+     <link rel="stylesheet" href="/static/style.css">
+ </head>
+ <body>
+     <h1>AI Poetry Assistant</h1>
+     <form action="/generate" method="post">
+         <label for="theme">Enter a theme:</label>
+         <input type="text" id="theme" name="theme" required>
+         
+         <label for="style">Select a style:</label>
+         <select id="style" name="style">
+             <option value="haiku">Haiku</option>
+             <option value="sonnet">Sonnet</option>
+             <option value="free verse">Free Verse</option>
+         </select>
+ 
+         <label for="first_line">Optional: First line of the poem</label>
+         <input type="text" id="first_line" name="first_line">
+ 
+         <button type="submit">Generate Poem</button>
+     </form>
+ 
+     {% if poem %}
+     <h2>Your Generated Poem:</h2>
+     <pre>{{ poem }}</pre>
+     {% endif %}
+ </body>
+ </html>
+ 
