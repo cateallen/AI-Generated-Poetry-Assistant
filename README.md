@@ -51,10 +51,10 @@ Open your browser and go to http://127.0.0.1:5000/. You’ll see a simple interf
 5. If you want to refine or regenerate, simply adjust the input and submit again.
 
 ## Example
-Inputs :
+Inputs {
 theme: nature
 style: Haiku
-First line: the sun sets
+First line: the sun sets }
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
