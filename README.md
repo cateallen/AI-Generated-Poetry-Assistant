@@ -18,28 +18,28 @@ To run this project, you need the following:
 
 ## Installation and Setup
 
-### 1. Clone the Repository
-First, clone this repository to your local machine:
+## 1. Clone the Repository
+Clone this repository to your local machine:
 ```bash
 git clone https://github.com/your-username/AI-Generated-Poetry-Assistant.git
 cd AI-Generated-Poetry-Assistant
 
-### 2. Install the Dependencies using PIP
+## **2. Install the Dependencies using PIP**
 ```bash
 pip install -r requirements.txt
 
-### 3. Set Up Your OpenAI API Key
+## 3. Set Up Your OpenAI API Key
 1. Open poetry_generator.py.
 2. Replace 'your-api-key' with your actual OpenAI API key:
 ```python
 openai.api_key = 'your-api-key'
 
-### 4. Run the Application
+## 4. Run the Application
 After the first 3 steps, we are now able to run the Flask application
 ```bash
 python app.py
 
-### 5. Access the Application
+## 5. Access the Application
 Open your browser and go to http://127.0.0.1:5000/. You’ll see a simple interface where you can input a theme, select the style of the poem, and provide the first line for the poem (optional).
 
 
