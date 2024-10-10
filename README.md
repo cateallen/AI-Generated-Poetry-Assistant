@@ -17,29 +17,29 @@ To run this project, you need the following:
 - An OpenAI account with an API key. You can sign up and get your key at [OpenAI](https://beta.openai.com/signup/).
 
 ## Installation and Setup
+Below provides information on how to setup the project
 
-## 1. Clone the Repository
+### Clone the Repository
 Clone this repository to your local machine:
-```bash
-git clone https://github.com/your-username/AI-Generated-Poetry-Assistant.git
-cd AI-Generated-Poetry-Assistant
+    ```bash
+    git clone https://github.com/your-username/AI-Generated-Poetry-Assistant.git
+    cd AI-Generated-Poetry-Assistant
 
-## **2. Install the Dependencies using PIP**
-```bash
-pip install -r requirements.txt
+### Install the Dependencies using PIP
+    pip install -r requirements.txt
 
-## 3. Set Up Your OpenAI API Key
+### Set Up Your OpenAI API Key
 1. Open poetry_generator.py.
 2. Replace 'your-api-key' with your actual OpenAI API key:
-```python
-openai.api_key = 'your-api-key'
+    ```python
+    openai.api_key = 'your-api-key'
 
-## 4. Run the Application
+### Run the Application
 After the first 3 steps, we are now able to run the Flask application
-```bash
-python app.py
+    ```bash
+    python app.py
 
-## 5. Access the Application
+### Access the Application
 Open your browser and go to http://127.0.0.1:5000/. You’ll see a simple interface where you can input a theme, select the style of the poem, and provide the first line for the poem (optional).
 
 
@@ -51,7 +51,7 @@ Open your browser and go to http://127.0.0.1:5000/. You’ll see a simple interf
 5. If you want to refine or regenerate, simply adjust the input and submit again.
 
 ## Example
-Input {
+Inputs :
 theme: nature
 style: Haiku
 First line: the sun sets
